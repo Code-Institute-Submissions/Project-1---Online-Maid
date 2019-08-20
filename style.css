@@ -14,3 +14,15 @@
 .nav-item{
     padding: 0px 20px;
 }
+
+.footer-style{
+    background: rgb(115, 115, 115);
+}
+
+.page-footer, .social {
+    color:white;
+}
+.list-unstyled a {
+   text-decoration: none; 
+   color:white;
+}
