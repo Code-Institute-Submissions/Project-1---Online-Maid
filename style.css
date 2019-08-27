@@ -83,7 +83,7 @@
 
 
 .btn {
-    background-color: orange;
+    background-color: #666666;
     font-weight: 500;
     color: white;
     padding: 0px 20px;
@@ -143,6 +143,14 @@
 }
 
 
+.maid-experience a {
+    text-decoration: none;
+    color: orange;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+
 
 /*section 4 - enquiry-box*/
 .enquiry-container {
@@ -198,6 +206,30 @@
     padding: 0px;
     margin: 0px 0px 25px 0px;
     border: none;
+}
+
+
+
+/*searchMaid Jumbotron*/
+
+.searchMaid-jumbotron {
+   background-image: url("images/banner.jpg");
+    background-size: cover;
+    color: white;
+    padding : 20px 0px 20px 50px;
+    margin-bottom: 40px;
+     } 
+     
+     
+.filter {
+    color:#666666;
+    margin: 10px 20px 0px 0px;
+    padding: 0px;
+}
+
+
+.search-bio {
+    margin: 30px 0px 0px 0px;
 }
 
 

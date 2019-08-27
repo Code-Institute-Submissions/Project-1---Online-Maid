@@ -26,7 +26,7 @@
         <a class="nav-link" href="index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="search.html">Search Maid</a>
+        <a class="nav-link" href="searchMaid.html">Search Maid</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQ</a>
@@ -47,15 +47,6 @@
           
   <div class="form-row">
       <div class = "col"></div>
-      <div class="choose-type col-md-2 px-0">
-        <select id="inputState" class="form-control">
-        <option selected>Choose Type</option>
-        <option>New</option>
-        <option>Transfer</option>
-        <option>Experience</option>
-        <option>No Preference</option>
-        </select>
-      </div>
       
       <div class="nationality col-md-2 px-0">
         <select id="inputState" class="form-control">
@@ -68,20 +59,28 @@
         <option>No Preference</option>
         </select>
       </div>
-      
-      <div class="main-responsibility col-md-2 px-0">
+      <div class="type-of-maid col-md-2 px-0">
         <select id="inputState" class="form-control">
-        <option selected>Main Responsibility</option>
-        <option>General housework</option>
-        <option>Care for children</option>
-        <option>Care for elderly</option>
-        <option>Care for disabled</option>
-        <option>Cooking</option>
+        <option selected>Type of Maid</option>
+        <option>New</option>
+        <option>Transfer</option>
+        <option>Experience</option>
         <option>No Preference</option>
         </select>
       </div>
-      
+      <div class="main-responsibility col-md-2 px-0">
+        <select id="inputState" class="form-control">
+        <option selected>Main Responsibility</option>
+        <option>Cooking </option>
+        <option>Care for children</option>
+        <option>Care for elderly</option>
+        <option>Care for disabled</option>
+        <option>General housework</option>
+        <option>No Preference</option>
+        </select>
+      </div>
       <button type="button" class="btn">Search</button>
+      
       <div class = "col"></div>
   </div>
   </div>
@@ -134,15 +133,15 @@
         <img class="card-img-top" src="images/partTime1.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">Part Time Maid</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
-      
+    
       <div class="card">
         <img class="card-img-top" src="images/fullTime1.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">Full Time Maid</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
       
@@ -150,7 +149,7 @@
         <img class="card-img-top" src="images/confinement.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">Confinement Nanny</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
     </div>
@@ -160,7 +159,7 @@
         <img class="card-img-top" src="images/childrenCare1.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">Care for Infant/ Children</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
       
@@ -168,7 +167,7 @@
         <img class="card-img-top" src="images/elderlyCare1.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">Care for Elderly/ Disable</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
       
@@ -176,23 +175,24 @@
         <img class="card-img-top" src="images/cooking1.jpg" alt="Card image cap">
         <div class="card-body maid-experience">
           <h5 class="card-title">General Housework and Cooking</h5>
-          <p class="card-text">Find out more --></p>
+          <a href="searchMaid.html" class="find-out-more">Find out more --></a>
         </div>
       </div>
     </div>
+    
   </section>
   
   <section>
-    <div class="row enquiry-container">
-  <div class="col-2 enquiry-box-1"></div>
+  <div class="row enquiry-container">
+    <div class="col-2 enquiry-box-1"></div>
       
-  <div class="col-4 enquiry-box-2">
+    <div class="col-4 enquiry-box-2">
       <h5 class ="enquiry-header">Let us help you find the most suitable maid</h5>
       <p class ="enquiry-content">OnlineMaid is the leading platform to find maids from local service providers.  Use our platform to shortlist potential maids and get local service providers to furnish you with further details. All service providers are vetted!</p>
       <button type="button" class="btn enquiry-btn">Get Started Here</button>
     </div>
       
-  <div class="col-4 enquiry-box-3">
+    <div class="col-4 enquiry-box-3">
       <div class="row picture-container">
         
         <div class="col-4 picture-col-1">
@@ -213,9 +213,8 @@
       </div>
   </div>
   
-  <div class="col-2 enquiry-box-4"></div>
-
-</div>
+    <div class="col-2 enquiry-box-4"></div>
+  </div>
   </section>
   
   
