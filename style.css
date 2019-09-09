@@ -12,7 +12,7 @@
 
 /*header*/
 #logo {
-    height: 50px; 
+    height: 55px; 
     max-width:100%;
 }
 
@@ -68,14 +68,16 @@
     background-size: cover;
     color: white;
     padding : 120px 0px;
-    /*margin-bottom: 10px;*/
+    margin: 0px 0px 120px;
      }
+     
 
 .maids-portal,
 .getStarted{
    text-align: center;
     font-weight: 600;
     color: white;
+    margin-bottom: 20px;
 }
 
 
@@ -96,15 +98,16 @@
 
 
 .btn {
-    background-color: #666666;
+    background-color: #808080;
     color: white;
-    padding: 0px 20px;
+    padding: 0px 40px;
     font-weight: 600;
 }
 
 
 .btn:hover {
-    color: orange;
+    background: orange;
+    color: white;
 }
      
 
@@ -112,16 +115,17 @@
 /*section 2 - 4 Steps*/
 .section-header{
     text-align: center;
-    margin: 120px 0px 10px 0px ;
+    margin: 80px 0px 10px 0px ;
     line-height: 25px;
-    font-weight: 600;
+    font-weight: 700;
     position: relative;
+    opacity: 0.9;
 }
 
 
 .steps-line{
     text-align: center;
-    /*margin: 20px;*/
+    margin: 20px;
     padding: 0px;
     line-height: 25px;
     font-size: 18px;
@@ -129,7 +133,7 @@
 
 
 .four-steps-container {
-    margin: 50px 200px 100px 200px;
+    margin: 50px 200px 120px 200px;
 }
 
 
@@ -157,8 +161,9 @@
    margin: 30px 20px 30px 20px; 
 }
 
+
 .six-choices-2 {
-   margin: 30px 20px 0px 20px; 
+   margin: 30px 20px 20px 20px; 
 }
 
 
@@ -200,14 +205,17 @@
 .enquiry-btn{
     background: orange;
     color: white;
-    padding: 5px 10px;
+    padding: 0px 20px;
+    min-height: 38px;
     margin: 20px 90px 0px;
     font-weight: 600
 }
 
-
+.contact-form .btn-primary:hover,
 .enquiry-btn:hover{
-    color: #595959;
+    background: #1d93e2;
+    color: white;
+    border: none;
 }
 
 
@@ -218,86 +226,6 @@
     padding: 0px;
     margin: 0px 0px 25px 0px;
     border: none;
-}
-
-
-
-/*searchMaid Jumbotron*/
-
-.searchMaid-jumbotron {
-   background-image: url("images/banner.jpg");
-    background-size: cover;
-    color: white;
-    padding : 20px 0px 20px 50px;
-    margin-bottom: 30px;
-     } 
-     
-     
-.searchMaid-header{
-    color: white;
-}
-     
-     
-.filter {
-    margin: 10px 20px 20px 0px;
-    padding: 0px;
-    color: #737373;
-}
-
-
-.filter-dropdown-box{
-    height: 50px;
-}
-
-
-.bio-container {
-    margin: 70px 0px 0px 0px;
-}
-
-
-.maid-name{
-    font-size: 20px;
-    font-weight: 700;
-}
-
-
-.small-label{
-    font-size:13px;
-    margin: 7px 0px;
-}
-
-.big-label{
-    margin: 0px;
-    padding: 0px;
-}
-
-.name-and-country,
-.age-marital-status,
-.maid-type,
-.agency-name{
-   padding: 0px 0px 5px 10px; 
-   margin: 0px 10px 2px;
-   border-bottom-color: #e6e6e6;
-   border-top:none;
-}
-
-
-.bio-btn{
-    padding: 7px 0px;
-    margin: 5px 10px;
-    border: 0px;
-    background: orange;
-    font-weight: 600
-}
-
-
-.bio-btn:hover{
-    color: #595959;
-}
-
-
-.pagination-margin{
-    margin: 50px 0px 0px;
 }
 
 
@@ -348,6 +276,8 @@
 	text-transform: uppercase;
 	color: #7AA641;
 }
+
+
 .carousel .carousel-control {
 	width: 40px;
     height: 40px;
@@ -355,6 +285,8 @@
     top: 50%;
 	background: none;
 }
+
+
 .carousel-control i {
     font-size: 68px;
 	line-height: 42px;
@@ -363,6 +295,8 @@
 	color: rgba(0, 0, 0, 0.8);
     text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
 }
+
+
 .carousel .carousel-indicators {
 	bottom: -40px;
 }
@@ -390,4 +324,125 @@
 
 
 
+
+
+/*searchMaid Jumbotron*/
+
+.header-jumbotron {
+   background-image: url("images/banner.jpg");
+    background-size: cover;
+    padding : 30px 0px 30px 125px;
+    /*margin-bottom: 30px;*/
+    opacity: 0.8;
+     } 
+     
+     
+.header-jumbotron-text{
+    color: white;
+    font-weight: 700
+}
+
+     
+.bio-container {
+    margin: 110px 0px 0px 0px;
+}
+
+
+.filter {
+    margin: 10px 30px 20px 0px;
+    padding: 0px;
+    color: #737373;
+}
+
+
+.filter-dropdown-box{
+    height: 50px;
+}
+
+
+.maid-name{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 0px 0px;
+}
+
+
+.small-label{
+    font-size:13px;
+    margin: 7px 0px;
+}
+
+.big-label{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.name-and-country,
+.age-marital-status,
+.maid-type,
+.agency-name{
+   padding: 0px 0px 5px 10px; 
+   margin: 0px 10px 2px;
+   border-bottom-color: #e6e6e6;
+   border-top:none;
+}
+
+
+.bio-btn{
+    padding: 7px 0px;
+    margin: 5px 10px;
+    border: 0px;
+    background: orange;
+    font-weight: 600
+}
+
+
+.bio-btn:hover{
+    color: #595959;
+}
+
+
+.pagination-margin{
+    margin: 50px 0px 0px;
+}
+
+
+
+
+
+/*enquiry-form*/
+.searchmaid-body,
+.enquiry-body{
+        background: #f5f5f5;
+    }
+    
+    
+.contact-form {
+    padding: 10px 50px;
+}
+    
+    
+.contact-form .btn  {
+    min-height: 38px;
+    border-radius: 5px;
+    min-width: 150px;
+    background: orange;
+    border: none;
+}
+
+
+.hint-text {
+    font-size: 18px;
+    padding-bottom: 30px;
+    opacity: 0.9;
+}
+
+
+.particular {
+    opacity: 0.7;
+}
+    
+    
+  
 

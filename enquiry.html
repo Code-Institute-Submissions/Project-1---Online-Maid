@@ -12,10 +12,11 @@
     <title>Online Maid</title>
 </head>
 
+
 <body>
 
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
   <a class="navbar-brand" href="#"><img id="logo" class="pl-4 img-fluid d-md-block" src="images/logo.jpg" alt=""></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -23,64 +24,127 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item hvr-sweep-to-bottom">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">Home</a>
       </li>
-      <li class="nav-item hvr-sweep-to-bottom">
+      <li class="nav-item">
         <a class="nav-link" href="searchMaid.html">Search Maid</a>
       </li>
-      <li class="nav-item hvr-sweep-to-bottom">
+      <li class="nav-item">
         <a class="nav-link" href="faq.html">FAQ</a>
       </li>
-      <li class="nav-item active hvr-sweep-to-bottom">
+      <li class="nav-item active">
         <a class="nav-link" href="enquiry.html">Enquiry</a>
       </li>
     </ul>
   </div>
 </nav>
 </header>
-    
-<article>
-  <section></section>
-  <section></section>
-  <section></section>
+
+<article class="enquiry-body">
+<section>
+  <div class="header-jumbotron">
+    <h4 class="header-jumbotron-text">Enquiry</h4>
+  </div>
+</section>
+
+<section>
+ <div class="container enquiry-body">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2 m-auto">
+			<div class="contact-form">
+				<h3 class="section-header">CONTACT US</h3>
+				<p class="hint-text">We'd love to help you in your search, please send us your enquiry.</p>
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="inputFirstName" class="particular">First Name</label>
+								<input type="text" class="form-control" id="inputFirstName" required>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group">
+								<label for="inputLastName" class="particular">Phone Number</label>
+								<input type="text" class="form-control" id="inputLastName" required>
+							</div>
+						</div>
+					</div>            
+					<div class="form-group">
+						<label for="inputEmail" class="particular">Email Address</label>
+						<input type="email" class="form-control" id="inputEmail" required>
+					</div>
+					<div class="form-group">
+						<label for="inputMessage" class="particular">Message</label>
+						<textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+					</div>
+					<input type="submit" class="btn btn-primary" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</div> 
+</section>
+
+<section>
+      <div class="row enquiry-container">
+        <div class="col-2 enquiry-box-1"></div>
+
+        <div class="col-4 enquiry-box-2">
+          <h5 class="enquiry-header">Let us help you find the most suitable maid</h5>
+          <p class="enquiry-content">OnlineMaid is the leading platform to find maids from local service providers. Use our platform to shortlist potential maids and get local service providers to furnish you with further details. All service providers are vetted!</p>
+          <button type="button" class="btn enquiry-btn">Get Started Here</button>
+        </div>
+
+        <div class="col-4 enquiry-box-3">
+          <div class="row picture-container">
+
+            <div class="col-4 picture-col-1">
+              <img class="card-img-top-1" src="images/enquiry/1a.jpg" alt="Card image cap">
+              <img class="card-img-top-2" src="images/enquiry/2a.jpg" alt="Card image cap">
+            </div>
+
+            <div class="col-4 picture-col-2">
+              <img class="card-img-top-3" src="images/enquiry/3a.jpg" alt="Card image cap">
+              <img class="card-img-top-4" src="images/enquiry/4a.jpg" alt="Card image cap">
+            </div>
+
+            <div class="col-4 picture-col-3">
+              <img class="card-img-top-5" src="images/enquiry/5a.jpg" alt="Card image cap">
+              <img class="card-img-top-6" src="images/enquiry/6a.jpg" alt="Card image cap">
+              <img class="card-img-top-7" src="images/enquiry/7a.jpg" alt="Card image cap">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-2 enquiry-box-4"></div>
+
+      </div>
+    </section>
+
 </article>
 
 
-<!-- Footer -->
+
+
+
+
 <footer class="page-footer font-small footer-style pt-4">
-
-  <!-- Footer Links -->
   <div class="container-fluid text-center text-md-left">
-
-    <!-- Grid row -->
     <div class="row d-flex justify-content-around">
-
-      <!-- Grid column -->
-      <div class="col-md-3 mt-md-0 mt-3">
-
-        <!-- Content -->
-        <p class="">Reach us @ +65 8200 6162</p>
-        <p>sales@onlinemaid.com.sg</p>
+      
+      <div class=" footer-left col-md-3 mt-md-0 mt-3">
+        <p class="footer-content">Reach us @ +65 8200 6162</p>
+        <p class= "footer-content">sales@onlinemaid.com.sg</p>
+        
         <!-- social -->
-        <a href="#" class="social fa fa-facebook"></a>
+        <a href="#" class="social so1 fa fa-facebook"></a>
         <a href="#" class="social fa fa-twitter"></a>
         <a href="#" class="social fa fa-google-plus"></a>
         <a href="#" class="social fa fa-linkedin"></a>
         <a href="#" class="social fa fa-pinterest"></a>
-        <!-- /social -->
-
       </div>
-      <!-- Grid column -->
-
-      <hr class="clearfix w-100 d-md-none pb-3">
-
-      <!-- Grid column -->
+      
       <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-       
-
         <ul class="list-unstyled">
           <li>
             <a href="index.html">Home</a>
@@ -95,45 +159,25 @@
             <a href="enquiry.html">Enquiry</a>
           </li>
         </ul>
-
       </div>
-      <!-- Grid column -->
-
-      <!-- Grid column -->
+      
       <div class="col-md-3 mb-md-0 mb-3">
-
-        <!-- Links -->
-
         <ul class="list-unstyled">
           <li>
-            <a href="searchMaid.html">Care for Infant</a>
+            <a href="searchMaid.html">Agency log In</a>
           </li>
           <li>
-            <a href="searchMaid.html">Care for Disable</a>
-          </li>
-          <li>
-            <a href="searchMaid.html">Care for Elderly</a>
-          </li>
-          <li>
-            <a href="searchMaid.html">Care for Children</a>
+            <a href="searchMaid.html">Agency Signed Up</a>
           </li>
         </ul>
-
       </div>
-      <!-- Grid column -->
 
     </div>
-    <!-- Grid row -->
-
   </div>
-  <!-- Footer Links -->
-
-  <!-- Copyright -->
+  
   <div class="footer-copyright text-center py-3">© 2019 Copyright OnlineMaid.  All Rights Reserved</div>
-  <!-- Copyright -->
-
 </footer>
-<!-- Footer -->
+
 
 
 <
